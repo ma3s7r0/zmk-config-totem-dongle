@@ -65,7 +65,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &mt LGUI A  &mt LALT S  &mt LCTRL D &mt LSHFT F &kp G           &kp H       &mt RSHFT J &mt RCTRL K &mt RALT L  &mt RGUI SEMI
     &kp SQT     &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
-                                        &kp         &lt NAV TAB   &kp SPACE       &kp RET   &lt SYM ESC &kp BSPC
+                                        &trans      &lt NAV TAB &kp SPACE       &kp RET     &lt SYM ESC &kp BSPC
                         >;
                 };
 
@@ -115,8 +115,8 @@ label= "SYM"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp EXCL    &kp AT      &kp RA(5)    &kp DLLR    &kp PRCNT       &kp CARET   &kp RA(Y)    &kp          &kp RA(P)  &kp DQT       
-                &kp RA(Q)   &kp RA(S)   &trans   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4) &kp   
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
+                &kp RA(Q)   &kp RA(S)   &trans       &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4) &kp   
+    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans       &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
                                         &trans      &trans        &mo ADJ         &trans      &kp C_PP    &trans      
                         >;
                 };
